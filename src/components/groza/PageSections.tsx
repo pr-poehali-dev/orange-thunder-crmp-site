@@ -12,7 +12,7 @@ export default function PageSections({ scrollTo, setCabinetOpen, openFaq, setOpe
   return (
     <>
       {/* ===== HERO ===== */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center hero-bg noise-overlay pt-20">
+      <section id="home" className="relative min-h-screen flex items-center justify-center hero-bg noise-overlay" style={{ paddingTop: "calc(28px + 58px + 24px)" }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/3 left-0 right-0 h-px" style={{ background: "linear-gradient(90deg, transparent, rgba(255,107,0,0.15), transparent)" }} />
           <div className="absolute top-2/3 left-0 right-0 h-px" style={{ background: "linear-gradient(90deg, transparent, rgba(255,107,0,0.08), transparent)" }} />

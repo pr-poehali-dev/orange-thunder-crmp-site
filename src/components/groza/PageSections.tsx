@@ -45,7 +45,7 @@ export default function PageSections({ scrollTo, setCabinetOpen, openFaq, setOpe
           </p>
 
           <div className="animate-fade-up delay-6 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button
+            <button className="pulse-btn flex items-center gap-3 px-8 py-4 rounded-lg font-bold text-lg transition-all hover:scale-105 my-0"
               onClick={() => scrollTo("download")}
               className="pulse-btn flex items-center gap-3 px-8 py-4 rounded-lg font-bold text-lg transition-all hover:scale-105"
               style={{ background: "var(--orange)", color: "#fff", fontFamily: "Oswald", letterSpacing: 2, minWidth: 220 }}
